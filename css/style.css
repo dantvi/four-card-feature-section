@@ -2,9 +2,10 @@
 
 :root {
     --red: hsl(0, 78%, 62%);
-    --cyran: hsl(180, 62%, 55%);
+    --cyan: hsl(180, 62%, 55%);
     --orange: hsl(34, 97%, 64%);
     --blue: hsl(212, 86%, 64%);
+    --white: hsl(0, 0%, 100%);
     --very-dark-blue: hsl(234, 12%, 34%);
     --grayish-blue: hsl(229, 6%, 66%);
     --very-light-grey: hsl(0, 0%, 98%);
@@ -22,6 +23,7 @@ body {
     font-size: 1.5rem;
     font-weight: 400;
     text-align: center;
+    background: var(--very-light-grey);
     color: var(--very-dark-blue);
 }
 
@@ -50,4 +52,28 @@ h1 {
     line-height: 25px;
     letter-spacing: 0.1px;
     opacity: 0.5;
+}
+
+.card {
+    height: 222px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0px 15px 30px -11px hsla(213, 47%, 67%, 0.5);
+}
+
+#supervisor {
+    border-top: 4px solid var(--cyan);
+}
+
+#team-builder {
+    border-top: 4px solid var(--red);
+}
+
+#karma {
+    border-top: 4px solid var(--orange);
+}
+
+#calculator {
+    border-top: 4px solid var(--blue);
+    margin-bottom: 0;
 }
