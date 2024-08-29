@@ -20,5 +20,34 @@ body {
     min-height: 100vh;
     font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--very-dark-blue);
 }
 
+.content-wrapper {
+    margin: 85px 32px 78px 32px;
+}
+
+.header {
+    margin-bottom: 76px;
+}
+
+#slogan {
+    font-size: 2.4rem;
+    font-weight: 200;
+    letter-spacing: 0.17px;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: 0.17px;
+    margin: 1px 0 13px 0;
+}
+
+.header p {
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    opacity: 0.5;
+}
